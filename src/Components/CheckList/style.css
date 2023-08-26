@@ -1,0 +1,20 @@
+.item_task {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.item_task div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+    transform: scale(2);
+}
+
+.item_task div label {
+    font-size: 25px;
+    cursor: pointer;
+}

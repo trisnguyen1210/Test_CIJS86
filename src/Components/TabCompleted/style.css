@@ -1,0 +1,24 @@
+.tab_completed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tab_completed .item_task div {
+    justify-content: space-between;
+}
+
+.reset_all {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.reset_all button {
+    background-color: red;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
